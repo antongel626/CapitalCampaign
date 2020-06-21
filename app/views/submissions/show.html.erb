@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Donor name:</strong>
+  <%= @submission.donor_name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @submission.address %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @submission.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @submission.phone %>
+</p>
+
+<p>
+  <strong>Payment info:</strong>
+  <%= @submission.payment_info %>
+</p>
+
+<p>
+  <strong>Credit card:</strong>
+  <%= @submission.credit_card %>
+</p>
+
+<p>
+  <strong>Expire date:</strong>
+  <%= @submission.expire_date %>
+</p>
+
+<p>
+  <strong>Ccv:</strong>
+  <%= @submission.ccv %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @submission.comment %>
+</p>
+
+<p>
+  <strong>Number of sfd:</strong>
+  <%= @submission.number_of_sfd %>
+</p>
+
+<p>
+  <strong>Submitted by:</strong>
+  <%= @submission.submitted_by %>
+</p>
+
+<%= link_to 'Edit', edit_submission_path(@submission) %> |
+<%= link_to 'Back', submissions_path %>

@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  donor_name: MyString
+  address: MyString
+  email: MyString
+  phone: MyString
+  payment_info: MyString
+  credit_card: MyString
+  expire_date: 2017-04-17
+  ccv: MyString
+  comment: MyString
+  number_of_sfd: 1
+  submitted_by: 1
+
+two:
+  donor_name: MyString
+  address: MyString
+  email: MyString
+  phone: MyString
+  payment_info: MyString
+  credit_card: MyString
+  expire_date: 2017-04-17
+  ccv: MyString
+  comment: MyString
+  number_of_sfd: 1
+  submitted_by: 1
